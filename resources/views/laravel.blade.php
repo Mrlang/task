@@ -1,9 +1,8 @@
+@extends('layouts.app')
 <!DOCTYPE html>
 <html>
 <head>
     <title>Laravel</title>
-
-
 
     <style>
         html, body {
@@ -22,7 +21,7 @@
             text-align: center;
             display: table-cell;
             vertical-align: middle;
-        }ac
+        }
 
          .content {
              text-align: center;
@@ -35,6 +34,7 @@
     </style>
 </head>
 <body>
+@section('content')
 <div class="container">
     <div class="content">
         <div class="title">Laravel 5</div>
@@ -42,3 +42,4 @@
 </div>
 </body>
 </html>
+@endsection
