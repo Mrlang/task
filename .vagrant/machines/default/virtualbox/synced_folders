@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/task":{"guestpath":"/home/task","hostpath":"/Users/Mr_liang/Sites/latest/task","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/Mr_liang/Sites/latest/task","disabled":false,"__vagrantfile":true}}}

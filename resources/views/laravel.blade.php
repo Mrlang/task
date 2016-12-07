@@ -37,7 +37,8 @@
 @section('content')
 <div class="container">
     <div class="content">
-        <div class="title">Laravel 5</div>
+        <div class="title">Task Manage System</div>
+        <p>戴思颖 2014211434</p>
     </div>
 </div>
 </body>

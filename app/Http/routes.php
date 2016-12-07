@@ -14,8 +14,11 @@ use Illuminate\Http\Request;
 Route::get('/', function () {
     return view('laravel');
 });
-
-
+Route::get('/send','TestServiceController@send');
+Route::get('/addjob','TestServiceController@addJob');
+Route::get('/addevent', 'TestServiceController@addEvent');
+Route::get('/upload', 'FileController@uploadForm');
+Route::post('/upload', 'FileController@uploadFile');
 /*
 
 Route::get('/sites/article','SitesController@article');
