@@ -78,7 +78,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::get('/home',function(){return view('home');});
     Route::get('/tasks', 'TasksController@index');
     Route::post('/task', 'TasksController@store');
-    Route::delete('/task/{id}', 'TasksController@destory');
+    Route::delete('/task/{id}', 'TasksController@delete');
 
     Route::auth();
 

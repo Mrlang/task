@@ -34,11 +34,11 @@ class TasksController extends Controller
     }
 
     //此删除方法用于第二个教程
-    public function destory(Request $request,Task $task){
-        $this->authorize('destory',$task);
+//    public function destory(Request $request,Task $task){
+//        $this->authorize('destory',$task);
 //        $task->delete();
 //        return redirect('/tasks');
-    }
+//    }
 
     //此删除方法用于第一个教程
     public function delete($id){
